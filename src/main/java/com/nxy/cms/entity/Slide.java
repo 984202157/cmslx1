@@ -1,0 +1,51 @@
+package com.nxy.cms.entity;
+
+import java.io.Serializable;
+
+/**
+ * 
+ * @ClassName: Slide 
+ * @Description:  广告表
+ * @author: 98420
+ * @date: 2020年3月3日 下午2:41:56
+ */
+ 
+public class Slide implements Serializable{
+
+	/**
+	 * @fieldName: serialVersionUID
+	 * @fieldType: long
+	 * @Description: TODO
+	 */
+	private static final long serialVersionUID = 1L;
+	private Integer id;
+	private String title;
+	private String picture;
+	private String url;
+	public Integer getId() {
+		return id;
+	}
+	public void setId(Integer id) {
+		this.id = id;
+	}
+	public String getTitle() {
+		return title;
+	}
+	public void setTitle(String title) {
+		this.title = title;
+	}
+	public String getPicture() {
+		return picture;
+	}
+	public void setPicture(String picture) {
+		this.picture = picture;
+	}
+	public String getUrl() {
+		return url;
+	}
+	public void setUrl(String url) {
+		this.url = url;
+	}
+	
+	
+}
